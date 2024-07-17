@@ -1,9 +1,11 @@
 import './App.css'
+import { Grid } from './pages/Grid'
 
 function App() {
   return (
     <>
-     <h1>Conway's Game of line</h1>
+     <h3 className='title'>Conway's Game of life</h3>
+     <Grid/>
     </>
   )
 }
